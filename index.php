@@ -2,7 +2,7 @@
 function revert_characters($str){
 	$tstr=trim($str);
 	$charset='utf-8';
-	if (empty($tstr)||mb_strlen($tstr,$charset)==1) return $tstr;
+	if (empty($tstr)||mb_strlen($tstr,$charset)==1) return $str;
 	$reverse_word='';
 	$revert_str='';
 	$result='';
