@@ -15,7 +15,7 @@ function revert_characters($str){
 			$reverse_word='';
 			$revert_str='';
 		}else{
-			if (preg_match('/[a-zабвгдеёжзийклмнопрстуфхцчшщьыъэюя]/i',$substr) > 0){	
+			if (preg_match('/[a-zабвгдеёжзийклмнопрстуфхцчшщьыъэюя]/i',$substr)>0){	
 				$reverse_word=$substr.$reverse_word;
 				if (mb_strtolower($substr,$charset)==$substr)
 					$array_save_case_sensitive[$i]=0;
