@@ -44,5 +44,13 @@ echo '<pre>';
 echo revert_characters('Привет! Давно не виделись.');
 echo '<br>';
 echo revert_characters('     Привет!    !Longago!     нЕ       вИдЕлисЬ.    ');
+echo '<br>';
+echo revert_characters('         ');
+echo '<br>';
+echo revert_characters('');
+echo '<br>';
+echo revert_characters('  s   ');
+echo '<br>';
+echo revert_characters('     П    ');
 echo '</pre>';
 ?>
